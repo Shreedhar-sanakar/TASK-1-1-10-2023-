@@ -10,16 +10,17 @@ export default function App() {
         <input
           id="first-name"
           class="form-field"
-          type="text"
+          type="text"       
+        
           placeholder="First Name"
           name="firstName"
         
         />
         {/* Uncomment the next line to show the error message */}
-        {/* <span id="first-name-error">Please enter a first name</span> */}
+        {/* <span id="first-name-error">Please enter first name</span> */}
         <input
           id="last-name"
-          class="form-field"
+          class="form-field"    
           type="text"
           placeholder="Last Name"
           name="lastName"
@@ -88,6 +89,7 @@ export default function App() {
         placeholder="Zip Code"
         name="Zip Code"
         />
+        
 
 
         {/* Uncomment the next line to show the error message */}
